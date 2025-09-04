@@ -48,7 +48,7 @@ This guide will help you deploy your Next.js application to Vercel with MongoDB 
 2. **Configure Environment Variables**:
    Update your `.env.local` file with your MongoDB connection string:
    ```env
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/mediate?retryWrites=true&w=majority
+   DATABASE_URL=mongodb+srv://username:password@cluster.mongodb.net/mediate?retryWrites=true&w=majority
    NEXT_PUBLIC_API_URL=http://localhost:3000
    NEXTAUTH_SECRET=your-local-secret-key-change-this-in-production
    NEXTAUTH_URL=http://localhost:3000
@@ -85,7 +85,7 @@ This guide will help you deploy your Next.js application to Vercel with MongoDB 
    - Add the following variables:
    
    ```
-   MONGODB_URI = mongodb+srv://username:password@cluster.mongodb.net/mediate?retryWrites=true&w=majority
+   DATABASE_URL = mongodb+srv://username:password@cluster.mongodb.net/mediate?retryWrites=true&w=majority
    NEXT_PUBLIC_API_URL = https://your-backend-api.com
    NEXTAUTH_SECRET = your-production-secret-key-generate-a-secure-one
    NEXTAUTH_URL = https://your-app.vercel.app

@@ -47,5 +47,5 @@
 ## Important Notes:
 - The frontend is now ready for MongoDB integration
 - Backend API at localhost:3000 needs to be running for full functionality
-- MongoDB features will work once you provide a valid MONGODB_URI
+- MongoDB features will work once you provide a valid DATABASE_URL
 - All new API routes (/api/health, /api/cache, /api/user-preferences) are ready

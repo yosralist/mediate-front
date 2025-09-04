@@ -9,14 +9,14 @@
         }
     },
     "env": {
-        "MONGODB_URI": "@mongodb_uri",
+        "DATABASE_URL": "@DATABASE_URL",
         "NEXT_PUBLIC_API_URL": "@next_public_api_url",
         "NEXTAUTH_SECRET": "@nextauth_secret",
         "NEXTAUTH_URL": "@nextauth_url"
     },
     "build": {
         "env": {
-            "MONGODB_URI": "@mongodb_uri",
+            "DATABASE_URL": "@DATABASE_URL",
             "NEXT_PUBLIC_API_URL": "@next_public_api_url",
             "NEXTAUTH_SECRET": "@nextauth_secret",
             "NEXTAUTH_URL": "@nextauth_url"
