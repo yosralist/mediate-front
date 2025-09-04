@@ -18,7 +18,6 @@ export async function POST(request: NextRequest) {
         const usersCollection = db.collection('users');
         const institutesCollection = db.collection('institutes');
 
-        // Check if user already exists
         const existingUser = await usersCollection.findOne({
             $or: [{ username }, { email }]
         });
